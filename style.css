@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    background-color: rgb(150, 0, 0);
+}
+
+header{
+    height: 200px;
+    background: linear-gradient(to bottom, rgb(255, 255, 0), rgba(0, 0, 0, 0));
+    padding-top: 50px;
+}
+
+main{
+    height: 500px;
+}
+
+h1{
+    margin: 0;
+    text-align: center;
+    color: antiquewhite;
+    font-style: italic;
+    font-size: 50px;
+
+}
+
+.search1{
+    width: 60%;         /*Ширина блока*/
+    float: left;   /*Сторона выравнивания*/
+    display: flex;        /*Расположения в один ряд*/
+    padding: 10px 20px;   /*Внутренний отсуп сверху и снизу по 10, а по бокам 20*/
+    border: 1px;          /*Рамка */
+    font-size: 20px;      /*Размер текста*/
+    background-color: rgba(255, 128, 0); /*Цвет фона*/
+    color: rgb(255, 255, 0);     /*Цвет текста*/  
+}
+
+.img_button{
+    height: 3em;
+    position: relative;
+    font-size: 10px;
+    border-radius: 1em;
+}
+.img_button:hover{
+    cursor: pointer;
+}
+
+.search2{
+    width: 70%;         /*Ширина блока*/
+    float: left;   /*Сторона выравнивания*/
+    display: flex;        /*Расположения в один ряд*/
+    padding: 0px 20px;   /*Внутренний отсуп сверху и снизу по 10, а по бокам 20*/
+    border: 1px;          /*Рамка */
+    font-size: 20px;      /*Размер текста*/
+    background-color: rgb(255, 255, 255); /*Цвет фона*/
+    color: rgb(0, 0, 0);     /*Цвет текста*/ 
+    border-radius: 0.3em;
+}
+
+.search3{
+    width: 80%;         /*Ширина блока*/
+    float: left;   /*Сторона выравнивания*/
+    display: flex;        /*Расположения в один ряд*/
+    padding: 30px 20px;   /*Внутренний отсуп сверху и снизу по 10, а по бокам 20*/
+    border: 1px;          /*Рамка */
+    font-size: 20px;      /*Размер текста*/
+    background-color: rgb(255, 255, 0); /*Цвет фона*/
+    color: rgb(255, 0, 0);     /*Цвет текста*/  
+    border-radius: 1em;
+}
